@@ -1,2 +1,4 @@
-# buypass
-Opening unblocked sites with the PaymentRequest API
+# The Buypass
+## By Bypassi
+
+Opening blocked sites with the PaymentRequest API

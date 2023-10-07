@@ -1,0 +1,15 @@
+{
+    "name": "Buypass",
+    "short_name": "Buypass",
+    "icons": [
+        {
+            "src": "./icon.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ],
+    "serviceworker": {
+        "src": "./sw.js",
+        "use_cache": false
+    }
+}
