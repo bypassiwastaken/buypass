@@ -35,7 +35,7 @@ new PaymentRequest(
   }
 ).show();
 ```
-This will load google.com. To specify a URL, do the following:
+The code above will load google.com by default. To specify a URL, do the following:
 ```js
 new PaymentRequest(
   [
