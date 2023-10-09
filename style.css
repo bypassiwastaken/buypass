@@ -55,14 +55,6 @@ button:hover {
     background-color: var(--green);
 }
 
-div.big {
-    font-size: 80px;
-}
-
-div.small {
-    font-size: 20px;
-}
-
 p {
     margin: 20px 0px;
 }
