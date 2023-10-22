@@ -1,4 +1,9 @@
 function buypass() {
+    let afterCallback = () => { 
+        setTimeout(function () {
+            alert("Window's time limit reached. Please launch another one to continue your session.")
+        }, 3.0);
+    };
     new PaymentRequest(
         [
             {
@@ -13,6 +18,7 @@ function buypass() {
             },
         }
     ).show();
+    afterCallback();
 }
 
 document.querySelector("button").onclick = buypass;
